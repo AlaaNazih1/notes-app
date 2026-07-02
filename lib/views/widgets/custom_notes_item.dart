@@ -25,7 +25,7 @@ class NotesItem extends StatelessWidget {
               child: Text(
                 'Build your career with Flutter',
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: 18,
                   color: Colors.black.withOpacity(0.5),
                 ),
               ),
