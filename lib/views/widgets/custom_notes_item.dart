@@ -16,7 +16,9 @@ final NoteModel note;
           context,
           MaterialPageRoute(
             builder: (context) {
-              return const EditNoteView();
+              return  EditNoteView(
+                note: note,
+              );
             },
           ),
         );
