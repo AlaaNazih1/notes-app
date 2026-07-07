@@ -13,6 +13,7 @@ class NotesView extends StatelessWidget {
         backgroundColor: Color(0xff55EAD6),
         onPressed: () {
           showModalBottomSheet(
+            isScrollControlled: true,
             shape:  RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16) ,
             ),
